@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": true,
+    "baseUrl": "./src/",
+    "paths": {
+      "#*": ["*"]
+    }
+  },
+  "include": ["src/**/*"]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "01-webhook-github-slack",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nasdan/poc-webhook.git"
+  },
+  "author": "Daniel Sánchez Muñoz",
+  "homepage": "https://github.com/nasdan/poc-webhook#readme",
+  "type": "module",
+  "imports": {
+    "#*": "./src/*"
+  },
+  "scripts": {
+    "start": "tsx watch --env-file=.env src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.5",
+    "hono": "^4.10.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.12",
+    "tsx": "^4.20.6"
+  }
+}
