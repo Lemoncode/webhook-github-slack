@@ -1,4 +1,4 @@
-# 🚀 Webhook GitHub → Slack
+# 🚀 Webhook GitHub → Slack Update
 
 ¡Conecta tus repositorios de GitHub con tus canales de Slack y mantén a tu equipo siempre informado!  
 Este proyecto es una demo que te permite recibir notificaciones automáticas en Slack cada vez que ocurre un evento push de GitHub.
